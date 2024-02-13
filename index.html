@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>  Table with yellow rows</title>
+        <link rel="stylesheet" href="style.css">   
+    </head>
+
+<body>
+<main>
+ 
+ <h1> PIZZA PIZZA STORE </h1>
+<form name = "order_form" action ="process_order.php" method ="post">
+<p>Please choose size of pizza</p>
+<p> <input type="radio"name="small" value="small"> SMALL </p>
+<p> <input type="radio"name="medium" value="medium"> MEDIUM </p>
+<p> <input type="radio"name="large" value="large"> LARGE</p>
+<p> <input type="radio"name="x-large" value="x-large"> X-LARGE </p>
+
+<p>Please choose toppings of pizza</p>
+
+
+<p> <input type="checkbox"name="onions" value="onions"> ONIONS </p>
+<p> <input type="checkbox"name="peppers" value="peppers"> PEPPERS </p>
+<p> <input type="checkbox"name="olives" value="olives"> OLIVES</p>
+<p> <input type="checkbox"name="pineapple" value="pineapple"> PINEAPPLE </p>
+
+
+<p>Please choose payment type</p><select name="card_type" >
+<option value="visa">Visa</option>
+<option value="mastercard">Mastercard</option>
+<option value="Cash on delivery">Cash on Delivery</option>
+
+</select>
+
+
+<p> < input type="submit" name="submit" 
+value="Place Order">  </p>
+<p> < input type="reset" name="reset" 
+value="clear"> </p>
+
+
+</form>
+
+</body>
+</html>
